@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.box{
+    padding:10% 25% 10% 25%;
+    margin:0px;
+    
+}
+button{
+
+    width: 27vw;
+    height: 6vh;
+    background: linear-gradient(to right, orange, limegreen);
+    border: none;
+    color:white;
+    margin-top:-5px;
+    font-size:15px;
+    display:block;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin:0px;
+}

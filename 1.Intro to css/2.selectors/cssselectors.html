@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <link rel="stylesheet" href="cssselectors.css">
+</head>
+<body>
+    <!-- 
+    >>element selector
+    >>ID selector
+    >>class selector
+    >>nested selector
+    >> universal selector
+    >>direct child selector >>.hover
+    descendant selector -->
+
+<!-- specificity
+    >> ID >> class >> element -->
+
+    <header>
+        <h1>selectors in css</h1>
+    </header>
+    <main>
+        <article>
+            <h2>element selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad sunt porro accusamus illum unde sequi tempora laboriosam necessitatibus, deleniti officiis, aut asperiores consequuntur libero perferendis, inventore amet dolores explicabo.</p>
+        </article>
+        
+        <article>
+            <h2>ID selector</h2>
+            <p id="pId">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad sunt porro accusamus illum unde sequi tempora laboriosam necessitatibus, deleniti officiis, aut asperiores consequuntur libero perferendis, inventore amet dolores explicabo.</p>
+        </article>
+        
+        <article>
+            <h2>class selector</h2>
+            <p class="p ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad sunt porro accusamus illum unde sequi tempora laboriosam necessitatibus, deleniti officiis, aut asperiores consequuntur libero perferendis, inventore amet dolores explicabo.</p>
+        </article>
+        
+        <article>
+            <h2>universal selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad sunt porro accusamus illum unde sequi tempora laboriosam necessitatibus, deleniti officiis, aut asperiores consequuntur libero perferendis, inventore amet dolores explicabo.</p>
+        </article>
+        <article id="direct-child">
+            <h2>direct child selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad sunt porro accusamus illum unde sequi tempora laboriosam necessitatibus, deleniti officiis, aut asperiores consequuntur libero perferendis, inventore amet dolores explicabo.</p>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe perspiciatis unde suscipit debitis cum culpa ipsam magni recusandae doloremque temporibus omnis quas, veniam fugit enim excepturi. Voluptas sunt quis esse.</p>
+        </article>
+        <article id="descendant">
+            <h2>descendant selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad sunt porro accusamus illum unde sequi tempora laboriosam necessitatibus, deleniti officiis, aut asperiores consequuntur libero perferendis, inventore amet dolores explicabo.</p>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+            <section>
+                <p>This is a paragraph inside a section.</p>
+            </section>
+        </article>
+    </main>
+</body>
+</html>

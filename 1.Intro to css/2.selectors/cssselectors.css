@@ -1,0 +1,52 @@
+/*
+selector syntax:
+selector{
+    propertykey: propertyvalue;
+}
+*/
+
+/* 1. element selector */
+p {
+    color: blue;
+}
+h2 {
+    color: brown;
+    background-color: yellow;
+}
+
+
+/* 2.ID selector */
+#pId {
+    color: red;
+}
+
+/* 3.class selector */
+.p {
+    color: green;
+}
+
+
+.pclass {
+    background-color: orange;
+}
+
+
+/* 5.universal selector */
+
+*{
+    font-family: bold;
+    color: purple;
+}
+
+/* 6.descendant selector */
+#descendant p {
+    color: blue;
+}
+
+/* 7.direct child selector */
+#direct-child > p {
+    color: red;
+}
+p:hover{
+    color: green;
+}
